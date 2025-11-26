@@ -52,15 +52,6 @@ const Contact = () => {
             </a>
           </div>
         </div>
-
-        <div className="space-y-4">
-          <input type="text" placeholder="Your Name" className="w-full bg-gray-700 text-gray-100 border border-gray-600 rounded-lg p-3 focus:ring-2 focus:ring-blue-400 outline-none" />
-          <input type="email" placeholder="Your Email" className="w-full bg-gray-700 text-gray-100 border border-gray-600 rounded-lg p-3 focus:ring-2 focus:ring-blue-400 outline-none" />
-          <textarea rows="5" placeholder="Your Message" className="w-full bg-gray-700 text-gray-100 border border-gray-600 rounded-lg p-3 focus:ring-2 focus:ring-blue-400 outline-none" ></textarea>
-          <button type="button" className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition" >
-            Send Message
-          </button>
-        </div>
       </div>
     </section>
   );

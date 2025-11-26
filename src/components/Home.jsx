@@ -1,4 +1,5 @@
 import React from "react";
+import profilePic from "../assets/profile/identity.jpg"
 
 const Home = () => {
   return (
@@ -26,10 +27,24 @@ const Home = () => {
       </div>
 
       <div className="mt-10 md:mt-0">
-        <img src="https://cdn-icons-png.flaticon.com/512/1053/1053244.png" alt="Profile" className="w-64 h-64 rounded-full border-4 border-blue-500 object-cover shadow-lg" />
+        <img
+          src={profilePic}
+          alt="Profile"
+          className="w-100 h-100 rounded-full border-4 border-blue-500 object-cover shadow-lg animate-[float_3s_ease-in-out_infinite]"
+        />
+
       </div>
 
-     
+      <style>
+        {`
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+  `}
+      </style>
+
+
     </div>
   );
 };
