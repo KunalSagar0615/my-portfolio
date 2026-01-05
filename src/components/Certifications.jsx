@@ -2,6 +2,7 @@ import genAI from "../assets/all-certifiates/GenerativeAI.jpg";
 import be10x from "../assets/all-certifiates/be10x.jpeg";
 import javaExplorer from "../assets/all-certifiates/Java explorer.png";
 import jsBootcamp from "../assets/all-certifiates/js.png";
+import techrelCertificate from "../assets/certificates/techrel.jpg";
 
 const certifications = [
   {
@@ -44,6 +45,16 @@ const certifications = [
     credentialLink:
       "https://drive.google.com/file/d/1JTh0N4uPSYZtRyNcFzSSXDwYccpXxanD/view?usp=sharing",
   },
+  {
+  title: "Full Stack Java Developer",
+  issuer: "TechRel Technologies Pvt. Ltd.",
+  date: "December 10, 2025",
+  description:
+    "Successfully completed the Full Stack Java Developer program at TechRel Institute, gaining hands-on experience in Core Java, Advanced Java, Spring Boot, REST APIs, databases, and full stack application development.",
+  image: techrelCertificate,
+  credentialLink: "https://drive.google.com/file/d/1TZU-4e6gU3S5c3KSAbAXRKQl5DKLj9Bu/view?usp=drivesdk"
+}
+
 ];
 
 const Certifications = () => {
