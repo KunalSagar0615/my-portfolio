@@ -2,9 +2,39 @@ import genAI from "../assets/all-certifiates/GenerativeAI.jpg";
 import be10x from "../assets/all-certifiates/be10x.jpeg";
 import javaExplorer from "../assets/all-certifiates/Java explorer.png";
 import jsBootcamp from "../assets/all-certifiates/js.png";
-import techrelCertificate from "../assets/certificates/techrel.jpg";
+import techrelCertificate from "../assets/all-certifiates/techrel.jpeg";
+import codsoftCertificate from "../assets/all-certifiates/codsoft.jpeg";
 
 const certifications = [
+  {
+    title: "Full Stack Java Developer",
+    issuer: "TechRel Technologies Pvt. Ltd.",
+    date: "December 10, 2025",
+    description:
+      "Successfully completed the Full Stack Java Developer program at TechRel Institute, gaining hands-on experience in Core Java, Advanced Java, Spring Boot, REST APIs, databases, and full stack application development.",
+    image: techrelCertificate,
+    credentialLink: "https://drive.google.com/file/d/1TZU-4e6gU3S5c3KSAbAXRKQl5DKLj9Bu/view?usp=drivesdk"
+  },
+  {
+    title: "Oracle Learning Explorer: Java",
+    issuer: "Oracle University",
+    date: "2024",
+    description:
+      "Recognized as an Oracle Learning Explorer for foundational Java learning achievements.",
+    image: javaExplorer,
+    credentialLink:
+      "https://drive.google.com/file/d/1dyO5YtY2I03KbbhgYIuEkCrmrsyZGeb_/view?usp=sharing",
+  },
+  {
+    title: "Java Programming Virtual Internship",
+    issuer: "CodSoft",
+    date: "November 8, 2025",
+    description:
+      "Successfully completed a 4-week virtual internship in Java Programming at CodSoft, working on hands-on tasks and projects that strengthened core Java concepts, OOPs, problem-solving, and practical application development skills.",
+    image: codsoftCertificate,
+    credentialLink:
+      "https://drive.google.com/file/d/1boY3WVTqXt4gyEVCYyiK_P_3RZcS0Rzt/view?usp=drivesdk"
+  },
   {
     title: "Oracle Certified Professional",
     issuer: "Oracle University",
@@ -26,16 +56,6 @@ const certifications = [
       "https://drive.google.com/file/d/1AkTVAfQzKPSR0McB_1sGDb9_ThicYlkP/view?usp=sharing",
   },
   {
-    title: "Oracle Learning Explorer: Java",
-    issuer: "Oracle University",
-    date: "2024",
-    description:
-      "Recognized as an Oracle Learning Explorer for foundational Java learning achievements.",
-    image: javaExplorer,
-    credentialLink:
-      "https://drive.google.com/file/d/1dyO5YtY2I03KbbhgYIuEkCrmrsyZGeb_/view?usp=sharing",
-  },
-  {
     title: "JavaScript Bootcamp",
     issuer: "LetsUpgrade",
     date: "September 25, 2025",
@@ -44,16 +64,7 @@ const certifications = [
     image: jsBootcamp,
     credentialLink:
       "https://drive.google.com/file/d/1JTh0N4uPSYZtRyNcFzSSXDwYccpXxanD/view?usp=sharing",
-  },
-  {
-  title: "Full Stack Java Developer",
-  issuer: "TechRel Technologies Pvt. Ltd.",
-  date: "December 10, 2025",
-  description:
-    "Successfully completed the Full Stack Java Developer program at TechRel Institute, gaining hands-on experience in Core Java, Advanced Java, Spring Boot, REST APIs, databases, and full stack application development.",
-  image: techrelCertificate,
-  credentialLink: "https://drive.google.com/file/d/1TZU-4e6gU3S5c3KSAbAXRKQl5DKLj9Bu/view?usp=drivesdk"
-}
+  },  
 
 ];
 
