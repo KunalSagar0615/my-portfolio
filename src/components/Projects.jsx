@@ -4,6 +4,21 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
   const projects = [
     {
+      title: "Banking Web Application",
+      description:
+        "A full-stack banking web application built using React and Spring Boot. Developed RESTful APIs with layered architecture using JPA/Hibernate. Implemented Savings and Current Account functionalities, including account creation, deposit, withdrawal, and account closure. Integrated SendGrid for automated email notifications and used PostgreSQL for secure data storage with Git-based version control.",
+      tech: [
+        "React",
+        "Spring Boot",
+        "Java",
+        "JPA / Hibernate",
+        "PostgreSQL",
+        "REST APIs",
+        "SendGrid",
+        "Git"
+      ],
+      link: "#"
+    },{
       title: "To-Do List Web App",
       description:
         "A responsive and user-friendly To-Do List built using HTML, CSS, and JavaScript. Supports task creation, deletion, and LocalStorage-based data persistence. Clean UI and smooth functionality.",
