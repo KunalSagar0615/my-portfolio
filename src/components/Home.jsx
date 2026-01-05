@@ -11,7 +11,7 @@ const Home = () => {
         </h1>
 
         <h2 className="text-2xl text-gray-300">
-          <span className="text-purple-400">Java Backend Developer</span> | Full Stack Java
+          <span className="text-purple-400">Full Stack Java Developer</span> 
         </h2>
 
         <p className="text-gray-400 leading-relaxed">
@@ -30,8 +30,14 @@ const Home = () => {
           <span className="text-blue-400 font-medium">Swagger (OpenAPI)</span>, and{" "}
           <span className="text-blue-400 font-medium">Git</span>.
           <br /><br />
+          On the frontend, I build responsive and modern user interfaces using{" "}
+          <span className="text-blue-400 font-medium">React</span>,{" "}
+          <span className="text-blue-400 font-medium">JavaScript</span>, and{" "}
+          <span className="text-blue-400 font-medium">Tailwind CSS</span>, enabling seamless
+          integration between frontend and backend systems.
+          <br /><br />
           A quick learner with a strong problem-solving mindset, eager to contribute to
-          scalable backend systems in a growth-oriented organization.
+          scalable full-stack applications in a growth-oriented organization.
         </p>
       </div>
 
@@ -43,7 +49,6 @@ const Home = () => {
         />
       </div>
 
-      {/* Animation */}
       <style>
         {`
           @keyframes float {
