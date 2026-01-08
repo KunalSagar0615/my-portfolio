@@ -28,7 +28,7 @@ const Home = () => {
           <span className="text-blue-400 font-medium">MySQL</span>,{" "}
           <span className="text-blue-400 font-medium">PostgreSQL</span>,{" "}
           <span className="text-blue-400 font-medium">Swagger (OpenAPI)</span>, and{" "}
-          <span className="text-blue-400 font-medium">Git</span>.
+          <span className="text-blue-400 font-medium">GitHub</span>.
           <br /><br />
           On the frontend, I build responsive and modern user interfaces using{" "}
           <span className="text-blue-400 font-medium">React</span>,{" "}
