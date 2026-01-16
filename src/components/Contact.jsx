@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  FaEnvelope,
-  FaPhoneAlt,
-  FaMapMarkerAlt,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import {FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa";
+import { CiLink } from "react-icons/ci";
 import { FaSquareInstagram } from "react-icons/fa6";
 
 const Contact = () => {
@@ -50,6 +45,11 @@ const Contact = () => {
             <a href="https://www.instagram.com/kunal.0615?igsh=YzVoYmM1czh3YjFr&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition" >
               <FaSquareInstagram size={26} />
             </a>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>Donwnload my CV: <a href="https://drive.google.com/file/d/19mZsxUlfxrD04-mfXIFMlk5rqG4AJJEg/view?usp=drivesdk"><CiLink size={22} /></a></h2>
           </div>
         </div>
       </div>
