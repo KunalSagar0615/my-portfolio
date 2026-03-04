@@ -4,6 +4,7 @@ import javaExplorer from "../assets/all-certifiates/Java explorer.png";
 import jsBootcamp from "../assets/all-certifiates/js.png";
 import techrelCertificate from "../assets/all-certifiates/techrel.jpeg";
 import codsoftCertificate from "../assets/all-certifiates/codsoft.jpeg";
+import GitHubBootcamp from "../assets/all-certifiates/gitHub.jpeg";
 
 const certifications = [
   {
@@ -66,11 +67,11 @@ const certifications = [
       "https://drive.google.com/file/d/1JTh0N4uPSYZtRyNcFzSSXDwYccpXxanD/view?usp=sharing",
   },
   {
-    "title": "Git & GitHub Bootcamp",
-    "issuer": "LetsUpgrade",
-    "date": "February 10, 2026",
-    "description": "Successfully completed a 2-day Git & GitHub Bootcamp organized by LetsUpgrade in collaboration with NSDC, ITM Edutech Training Pvt. Ltd., and GDG MAD from 9 February 2026 to 10 February 2026.",
-    "image": GitHubBootcamp,
+    title: "Git & GitHub Bootcamp",
+    issuer: "LetsUpgrade",
+    date: "February 10, 2026",
+    description: "Successfully completed a 2-day Git & GitHub Bootcamp organized by LetsUpgrade in collaboration with NSDC, ITM Edutech Training Pvt. Ltd., and GDG MAD from 9 February 2026 to 10 February 2026.",
+    image: GitHubBootcamp,
     credentialLink: "https://drive.google.com/file/d/1Xk2SGk13EFjc2VaC26x1ssadgDpRtPhE/view?usp=drive_link",
   },
 
