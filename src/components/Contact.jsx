@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         <div>
           <div>
-            <h2>Donwnload my CV: <a href="https://drive.google.com/file/d/19mZsxUlfxrD04-mfXIFMlk5rqG4AJJEg/view?usp=drivesdk"><CiLink size={22} /></a></h2>
+            <h2>Donwnload my CV: <a href="https://drive.google.com/file/d/1gFgc8wy-Ge07Tq8ajqUafabAnTE4Ot5f/view?usp=sharing"><CiLink size={22} /></a></h2>
           </div>
         </div>
       </div>
