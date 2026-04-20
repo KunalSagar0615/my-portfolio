@@ -3,7 +3,7 @@ import be10x from "../assets/all-certifiates/be10x.jpeg";
 import javaExplorer from "../assets/all-certifiates/Java explorer.png";
 import jsBootcamp from "../assets/all-certifiates/js.png";
 import techrelCertificate from "../assets/all-certifiates/techrel.jpeg";
-import jpmorganCertificate from "../assets/all-certificates/jpmorganCertificate.png";
+import jpmorganCertificate from "../assets/all-certifiates/jpmorganCertificate.png";
 import GitHubBootcamp from "../assets/all-certifiates/gitHub.jpeg";
 
 const certifications = [
