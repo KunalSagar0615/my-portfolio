@@ -17,21 +17,43 @@ const Projects = () => {
         "SendGrid",
         "Git"
       ],
-      link: "#"
-    },{
+      link: "https://banking-services-project.netlify.app/login"
+    },
+    {
+      title: "Transport Management System (TMS)",
+      description:
+        "A full-stack Transport Management System designed to manage branches, users, vehicles, drivers, and trips. Includes role-based dashboards, vehicle lifecycle management, and real-time notifications. Supports multi-step vehicle registration, analytics, and operational tracking.",
+
+      tech: [
+        "React",
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "REST APIs",
+        "JWT Authentication",
+        "Tailwind CSS"
+      ],
+      link: "https://github.com/KunalSagar0615/Transport-Management-System",
+    },
+    {
+      title: "Tic-Tac-Toe Game",
+      description:
+        "A classic Tic-Tac-Toe game built using JavaScript with an interactive UI. Implements game logic for player turns, win detection, and draw conditions, providing a smooth and responsive user experience.",
+
+      tech: [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ], link: "https://github.com/KunalSagar0615/tic-tac-toe"
+    },
+    {
       title: "To-Do List Web App",
       description:
         "A responsive and user-friendly To-Do List built using HTML, CSS, and JavaScript. Supports task creation, deletion, and LocalStorage-based data persistence. Clean UI and smooth functionality.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://github.com/KunalSagar0615/to-do-list",
     },
-    {
-      title: "CODESOFT Java Backend Projects",
-      description:
-        "Collection of backend development tasks completed during my CODESOFT Internship. Implemented Java OOP concepts, JDBC, MySQL CRUD operations, file handling, and console-based applications.",
-      tech: ["Java", "MySQL", "JDBC"],
-      link: "https://github.com/KunalSagar0615/CODESOFT",
-    },
+
   ];
 
   return (
