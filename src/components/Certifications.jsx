@@ -3,7 +3,7 @@ import be10x from "../assets/all-certifiates/be10x.jpeg";
 import javaExplorer from "../assets/all-certifiates/Java explorer.png";
 import jsBootcamp from "../assets/all-certifiates/js.png";
 import techrelCertificate from "../assets/all-certifiates/techrel.jpeg";
-import codsoftCertificate from "../assets/all-certifiates/codsoft.jpeg";
+import jpmorganCertificate from "../assets/all-certifiates/jpmorganCertificate.png";
 import GitHubBootcamp from "../assets/all-certifiates/gitHub.jpeg";
 
 const certifications = [
@@ -27,14 +27,13 @@ const certifications = [
       "https://drive.google.com/file/d/1dyO5YtY2I03KbbhgYIuEkCrmrsyZGeb_/view?usp=sharing",
   },
   {
-    title: "Java Programming Virtual Internship",
-    issuer: "CodSoft",
-    date: "November 8, 2025",
+    title: "Software Engineering Job Simulation",
+    issuer: "JPMorgan Chase & Co. (Forage)",
+    date: "April 15, 2026",
     description:
-      "Successfully completed a 4-week virtual internship in Java Programming at CodSoft, working on hands-on tasks and projects that strengthened core Java concepts, OOPs, problem-solving, and practical application development skills.",
-    image: codsoftCertificate,
-    credentialLink:
-      "https://drive.google.com/file/d/1boY3WVTqXt4gyEVCYyiK_P_3RZcS0Rzt/view?usp=drivesdk"
+      "Completed JPMorgan Chase Software Engineering Job Simulation on Forage, working on real-world tasks including Kafka integration, H2 database integration, and REST API development.",
+    image: jpmorganCertificate,
+    credentialLink: "https://drive.google.com/file/d/1wibFWmoF_09QHCPGc42FYUZs5EeiHh7Y/view"
   },
   {
     title: "Oracle Certified Professional",
