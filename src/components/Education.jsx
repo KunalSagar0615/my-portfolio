@@ -126,7 +126,7 @@ const Education = () => {
         </div>
 
     
-        <div className="border-l-4 border-green-500 pl-6 bg-gray-800 p-5 rounded-lg shadow-md hover:shadow-green-500/10 transition">
+        {/* <div className="border-l-4 border-green-500 pl-6 bg-gray-800 p-5 rounded-lg shadow-md hover:shadow-green-500/10 transition">
           <h2 className="text-2xl font-semibold text-gray-100 mb-1">
             Master of Computer Applications (MCA)
           </h2>
@@ -148,7 +148,7 @@ const Education = () => {
               Currently Pursuing
             </span>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

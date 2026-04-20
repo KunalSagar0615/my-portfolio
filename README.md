@@ -1,33 +1,16 @@
-# My Personal Portfolio
+# React + Vite
 
-🌐 Live Demo: https://kunalsagar.netlify.app/  
-📂 Repository: https://github.com/KunalSagar0615/my-portfolio
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 About
-This is my personal portfolio website built using **React** and deployed on **Netlify**. It serves as an online presence to showcase my skills, projects, and contact information. The portfolio highlights my frontend development abilities, UI/UX design, and provides visitors with easy navigation to explore my work and background.
+Currently, two official plugins are available:
 
-## 🔍 Features
-- Clean, modern, and fully responsive layout
-- Highlights my **skills, projects, and contact details**
-- Smooth navigation through different sections
-- Built with React and styled with modern CSS
-- Deployed live with seamless performance on Netlify
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠 Tech Stack
-- **React**
-- **JavaScript**
-- **HTML & CSS**
-- **Netlify (Deployment)**
+## React Compiler
 
-## 💡 Why This Portfolio?
-This portfolio reflects my passion for frontend development and showcases what I can build. It acts as a digital résumé to help recruiters, collaborators, and clients learn about my experience and technical capabilities.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📌 What’s Inside
-✔ Home / Introduction  
-✔ Skills Showcase  
-✔ Project Highlights  
-✔ Contact Links  
+## Expanding the ESLint configuration
 
-## 📫 Connect With Me
-Feel free to explore the project, check the live version, and connect with me for collaborations or opportunities!
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
